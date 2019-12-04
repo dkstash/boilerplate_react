@@ -1,0 +1,7 @@
+.header-bg {
+  background-color: #20232a;
+}
+
+.header-bg > h1 {
+  color: white;
+}

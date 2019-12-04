@@ -1,0 +1,20 @@
+/* Customize Bootstrap
+* Use SASS to modifying or extending Bootstrap
+* https://getbootstrap.com/docs/4.3/getting-started/theming/
+*/
+
+/* Begin customization before @import bootstrap.scss */
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../../fonts/OpenSans-Regular.ttf) format("ttf");
+}
+
+$font-family-base: "Open Sans", sans-serif;
+/*
+$theme-colors: (
+  "primary": red
+);*/
+
+/* Import all of Bootstrap to set changes */
+@import "../../../node_modules/bootstrap/scss/bootstrap";
